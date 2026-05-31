@@ -1,0 +1,259 @@
+{
+    "images":
+    {	
+	        "title":
+        {
+            "image" : "mainmenu:textures/title.png",
+            "posX" : -120,
+            "posY" : 15,
+            "width" : 240,
+            "height" : 100,
+            "alignment" : "top_center"
+        },
+			"frame": 
+			{
+			"image": "mainmenu:textures/frame.png",
+			"posX": -159,
+			"posY": -33,
+			"width": 318,
+			"height": 115,
+			"alignment": "center"
+		}	
+    },
+    
+    "buttons":
+    {
+		"singleplayer": {
+			"text": "menu.ntnh.singleplayer",
+			"hoverText": "menu.ntnh.singleplayer.hover",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": -150,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"texture": "mainmenu:textures/button_top_left.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+
+        "multiplayer":
+        {
+            "text": "menu.ntnh.multiplayer",
+			"hoverText": "menu.ntnh.multiplayer.hover",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": -150,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"texture": "mainmenu:textures/button_middle_left.png",					
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+        },
+        
+        "mods":
+        {
+			"text": "menu.ntnh.mods",
+			"hoverText": "(#modsloaded#/#modsactive#)",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": -150,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"texture": "mainmenu:textures/button_middle_left.png",					
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+        },
+            
+        "options":
+        {
+			"text": "menu.ntnh.options",
+			"hoverText": "menu.ntnh.options.hover",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": -150,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"clickSound": "block.lever.click",
+			"texture": "mainmenu:textures/button_middle_left.png",					
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+        },
+        
+        "quit":
+        {
+			"text": "menu.ntnh.quit",
+			"hoverText": "menu.ntnh.quit.hover",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 55,
+			"width": 300,
+			"height": 20,
+			"imageWidth": 300,
+			"imageHeight": 20,
+			"hoverTextColor": 16747520,
+			"normalTextColor": 16747520,
+			"texture": "mainmenu:textures/button_bottom.png",					
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "quit"
+			}
+        },
+        
+        "discord": {
+			"text": "Discord",
+			"alignment": "center",
+			"hoverText": "> Discord",			
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": 0,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"clickSound": "block.lever.click",
+			"texture": "mainmenu:textures/button_top_right.png",					
+			"action": {
+				"type": "openLink",
+				"link": "https://discord.gg/UsBBgpJsqw"
+			}
+		},  
+
+        		"github": {
+			"text": "menu.ntnh.feedback",
+			"hoverText": "menu.ntnh.feedback.hover",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": 0,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"clickSound": "block.lever.click",
+			"texture": "mainmenu:textures/button_middle_right.png",					
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/NTNewHorizons/NTNH/issues"
+			}
+		},
+
+		"open_folder": 
+        {
+			"text": "menu.ntnh.files",
+			"hoverText": "menu.ntnh.files.hover",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": 0,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"texture": "mainmenu:textures/button_middle_right.png",					
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
+        },
+            "website": {
+			"text": "menu.ntnh.web",
+			"hoverText": "menu.ntnh.web.hover",
+			"alignment": "center",
+			"normalTextColor": 16747520,
+			"hoverTextColor": 16747520,
+			"posX": 0,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 150,
+			"imageHeight": 20,
+			"clickSound": "block.lever.click",
+			"texture": "mainmenu:textures/button_middle_right.png",					
+			"action": {
+				"type": "openLink",
+				"link": "https://ntnewhorizons.com"
+			}
+		}
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -45,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": [
+					"mainmenu:textures/beach.png",
+					"mainmenu:textures/chicken.png",
+					"mainmenu:textures/dres.png",
+					"mainmenu:textures/duna.png",
+					"mainmenu:textures/eve.png",
+					"mainmenu:textures/factory.png",
+					"mainmenu:textures/ike.png",
+					"mainmenu:textures/laythe.png",
+					"mainmenu:textures/minmus.png",
+					"mainmenu:textures/moho.png",
+					"mainmenu:textures/mountain.png",
+					"mainmenu:textures/mun.png",
+					"mainmenu:textures/nature.png",
+					"mainmenu:textures/powerplant.png",
+					"mainmenu:textures/rbmk.png",
+					"mainmenu:textures/tekto.png",
+					"mainmenu:textures/water.png"
+				],
+				"displayDuration": 150,
+				"fadeDuration": 40,
+				"shuffle": true
+			}
+		}		
+    }
+}

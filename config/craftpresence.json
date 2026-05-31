@@ -1,0 +1,218 @@
+{
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 5,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
+    "detectModrinthPack": true,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "1368022831618854922",
+    "defaultIcon": "discord",
+    "enableJoinRequests": true,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "unknown",
+    "dimensionData": {
+      "default": {
+        "textOverride": "In the {dimension.name}"
+      },
+      "overworld": {
+        "textOverride": "On Kerbin (Earth)",
+        "iconOverride": "kerbin"
+      },
+      "earth": {
+        "textOverride": "On Kerbin (Earth)",
+        "iconOverride": "kerbin"
+      },
+      "mun": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "mun"
+      },
+      "minmus": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "minmus"
+      },
+      "duna": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "duna"
+      },
+      "moho": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "moho"
+      },
+      "dres": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "dres"
+      },
+      "eve": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "eve"
+      },
+      "ike": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "ike"
+      },
+      "laythe": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "laythe"
+      },
+      "tekto": {
+        "textOverride": "On the {dimension.name}",
+        "iconOverride": "tekto"
+      },
+      "orbit": {
+        "textOverride": "In Orbit",
+        "iconOverride": "orbit"
+      },
+      "the_nether": {
+        "textOverride": "In the Nether",
+        "iconOverride": "nether"
+      },
+      "the_end": {
+        "textOverride": "In the End",
+        "iconOverride": "end"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "NTNH Server",
+    "fallbackServerMotd": "Nuclear Tech: New Horizons",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing on {server.motd.raw}"
+      },
+      "5.252.21.11": {
+        "textOverride": "On the Balefire - Official NTNH SMP",
+        "iconOverride": "default"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading Nuclear Tech: New Horizons..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer - {world.name}"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 5,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.main_hand.message}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "languageId": "en_US",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": 210
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "statusDisplayType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "detailsUrl": "",
+      "gameState": "{getOrDefault(server.message, custom.world_info)} | {custom.player_info_health}",
+      "gameStateUrl": "",
+      "appName": "",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageUrl": "",
+      "smallImageKey": "discord",
+      "smallImageText": "Nuclear Tech: New Horizons",
+      "smallImageUrl": "",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Nuclear Tech: New Horizons",
+          "url": "https://ntnewhorizons.com"
+        },
+        "secondary": {
+          "label": "Download on GitHub",
+          "url": "https://github.com/NTNewHorizons/NTNH/releases/latest"
+        }
+      }
+    },
+    "dynamicIcons": {},
+    "dynamicVariables": {
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info_health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "HP: {player.health.current}/{player.health.max}",
+      "world_info": "On {world.name}",
+      "pack": "Nuclear Tech: New Horizons"
+    }
+  }
+}

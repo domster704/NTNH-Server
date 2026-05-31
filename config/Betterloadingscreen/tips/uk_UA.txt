@@ -1,0 +1,169 @@
+#Підказки завантажувального екрану
+#Дякуємо 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji та іншим за пропозиції підказок
+#
+#Максимальна кількість символів: 77 (більше можливо вийде за екран)
+#Рядок нижче, включно з "#" містить 77 символів
+#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#
+Маєте питання? Приєднуйтесь в наш Discord: discord.gg/wtNVzeE5QB
+Ви можете налаштувати відкриття квестів кнопкою, замість книги в інвентарі
+Не забудьте перевірити що можна робити в інвентарі з Mouse Tweaks
+Буквально кремінь та сталь!
+Ранець мандрівника: сітка крафту, ліжко та місце рідини
+Остерігайтеся забруднення!
+Знайшли баг? Повідомте про це на GitHub або Discord
+Ви можете додати елементи до закладок NEI ("a" за замовчуванням)
+Це NEI, а не JEI. Використовуйте його часто.
+Ваше кайло ще не готово
+Також спробуйте GT:NH!
+Поверніть "Mine" в Minecraft
+Не виходь вночі!
+Залиште всі ванільні знання всі ви, хто заходить сюди
+Іноді краще дати драпака, ніж битися з мобами
+Будьте готові витратити години на побудову однієї багатоблочної машини!
+Натисніть F7, щоб побачити, де можуть з'явитися моби!
+Натисніть F9, щоб побачити межі чанків!
+Мікрокрафтинг – це любов, мікрокрафтинг – це життя
+Скільки мікросхем ви створили за своє життя?
+МАПА СВІТУ XAERO's: НАТИСНІТЬ АНГЛІЙСЬКУ [M]
+sqrt(-1) любить тебе!
+(MultiMC > Curse) && (Technic > Curse): true
+Все, що тобі потрібно було зробити, це слідувати клятому квесту, СіДжей!
+Натисніть на предмет у квестбуці, щоб показати його рецепт в NEI
+Чому б не відвідати Nuclear Tech? У нас є... водневі бомби
+Якщо це занадто нудно - ви робите це неправильно
+Ви також стежите за своєю духовкою під час випікання їжі?
+Завжди є щось інше, чим можна зайнятися під час очікування
+Натисніть F3 + S, щоб перезавантажити звук, якщо він зник
+У житті важливо розв'язувати проблеми, а не закривати їх - Ронгмаріо
+Відвідай r/feedthemems!
+Я ХОЧУ РАКЕТУ, Я ХОЧУ МІСЯЦЬ - St4o
+Привіт @Bufka2011, чому ти скопіював наші (GTNH) правила :kekwhat:
+Ти вже створив Систему AE2?
+Натисніть O, щоб приховати інтерфейс NEI
+Також спробуй GregTech: New Horizons!
+3,6 Рентгена?
+Завод має зростати!
+Ви пробували Schematica?
+Тут рій попереду!
+Остерігайся Гліфідів
+Воднева бомба проти кашляючого малюка
+Передавай привіт DreamMaster з Bufka2011!
+Що? Варден тяжкий бос? Пффф... Марсіанський Корабель Вторгнення
+Це не баг, це аномалія!
+ЗІРНОКС робить брррррр
+О ні, ЗІРНОКС робить БУУУУУМ
+PotatOS кумедна :D
+Ти перевірив налаштування графіки?
+Скільки у тебе оперативної пам'яті? 6GB для NT:NH - ідеально!
+Не рви терпець - продовжуй грати
+Історично достовірно! Можливо...
+50% наукової точності!
+Як щодо того, щоб поділитися цим модпаком з друзями?
+Цей чортів метеорит приземлився ВСЕРЕДИНІ нашої кам'яної печери!
+Урааа, забруднення! >:D
+О ні, забруднення. :(
+У вас є з собою захист від радіації?
+Обов'язково перевірте, чи є нове оновлення!
+Найкращий спосіб обробки руди - це підкислювач + центрифуга
+Кристалізована руда дає 2 злитки при переплавці
+Електричні печі NTM це потреба!
+Не видобувайте вугілля без засобів захисту
+Фанат азбесту номер один
+Вона була Ядерна на моїй Технології, поки я не став Новим Горизонтом
+Ви вже автоматизували виробництво продуктів харчування?
+Це автоматизовано, а не оптимізовано
+Не забудьте погодувати свою кицю!
+Завантаження Minecraft може тривати деякий час
+Завантаження світу зайняти певний час
+Ви можете запропонувати свої ідеї у репозиторії GitHub NTNH!
+Ви можете запропонувати свої ідеї в Discord NTNH!
+Вам потрібна допомога з NTM? Знайдіть канал SavageVegeta в Youtube!
+А ти знаєш математику? Вона тобі знадобиться
+2 ідіоти 1 реактор
+Ніч РЕАЛЬНО дуже страшна!
+МАТИ ВАСИЛЕВА ТЕРМОЯДЕРНИЙ КРІПАК
+Біль-у-Сраці зборка!
+Привіт, Mellow!
+Привіт HBMTheBobcat!
+Привіт DreamMaster!
+Доброго дня, JamesH2!
+Привіт усім!
+Досліджуйте такі структури, як антени для початкових ресурсів  
+Побудуйте кілька печей, щоб пришвидшити виробництво сплавів  
+Сирени роблять УУУУУУУУАААААААААААУУУУУУУУАААААААААААУУУУУУУУ
+Бро цей РБМК дуже гарячий... Неважливо
+Турелі роблять РАТАТАТАТАТАТТАТА
+Брате. Темрява наближається.
+Використовуйте конвертори HE на RF!
+Використовуйте конвертори RF на HE!
+Використовуйте вікі моду для докладної інформації
+Експериментуйте з вдосконаленнями машин для підвищення ефективності
+Не забувайте за механіки забруднення - вони впливають на геймплей
+Контролюйте забруднення щоб уникнути проблем з тарганами
+Використовуй димову трубу для того щоб зменшити забруднення
+Розважайтесь і експериментуйте - NTM пропонує нескінченні можливості
+Кріпери тут ДУЖЕ страшні
+Також спробуйте S.T.A.L.K.E.R. Anomaly G.A.M.M.A!
+Також спробуйте Factorio!
+Зателефонуйте своїй мамі, зробіть її щасливою
+Щоб шукати рецепти в NEI - наведіться на річ, натисніть R
+Звичайні бойлери можуть вибухнути при переповненні.
+Рідини можна спорожнити за допомогою стічних труб.
+Стічні труби можуть бути не дуже корисними для середовища.
+Формочки для лиття можна зняти за допомогою викрутки.
+Вся мова йде про гру
+Зробіть ласти щоб плавати швидше.
+GregTech 6 неймовірний.
+Supersymmetry неймовірна.
+bob будь ласка зроби на 1.20
+порт на 1.8.9 з'явиться незабаром повірте мені, чуваки.
+Тут є метеори. Збудуйте дах. (#1)
+Доповнення доменної печі пришвидшує плавління за те й саме паливо. (#2)
+Не хочете використати відра для води? Використовуйте нескінченну діжку. (#3)
+Залізні печі більшефективні за паливом, і не горять в бездіяльності. (#4)
+Для довідки натисніть F1. (#5)
+Цегляні печі швидше плавлять буд-матеріали, як-от пісок, камінь та глину. (#6)
+Звичайні бойлери вибухають коли заповняться. Промислові просто припиняться (#7)
+Твій РБМК випромінює? Використай накладні панелі. (#8)
+Flow control pumps can be used to change fluid distribution priority. (#9)
+Pneumatic pipes move items instantly, and through unloaded chunks. (#10)
+Fluids can be voided with a drainage pipe. Not too good for the environment, though. (#11)
+Fans are activated by redstone and push entities around. Ideal for tree farms. (#12)
+Don't set the microwave to the highest setting. (#13)
+Fractioning towers connect vertically, stacking them increases throughput. (#14)
+Fullerite too difficult? Make fine soot with a pyrolysis oven. (#15)
+Exploration pays off. Who knows what you'll find. (#16)
+Feeling sick? Check for nearby asbestos. (#17)
+Need a lot of fuel early on? The nether is full of flaming coal. (#18)
+Get a gun. (#19)
+Alexandrite needs explosives to be mined. (#20)
+Foundry casts can be removed with a screwdriver. (#21)
+No, you can't upgrade a damaged pickaxe. (#22)
+Using a screwdriver on a fluid burner will increase its burn rate. (#23)
+Using dye on a pylon will change the color of the connected wires. (#24)
+Capacitors are cheaper than energy storage blocks, and have faster discharging rates. (#25)
+Any foundry part can be emptied by using a shovel. This drops the contents as foundry scraps. (#26)
+Teleporters can teleport any entity, even items on a conveoyr belt. (#27)
+Some recipes require blueprints which are found in structures. You can also buy them from Bobmazon. (#28)
+It's all about the game. (#V9)
+Winter will end just the same, no matter what. (#V9)
+You know how we do it. (#V9)
+Man, I'm dead. (#328)
+We never did find the body. ( )
+Shred wheat to triple your bread. (#S1)
+how many breads have you eaten (#S2)
+The two right-hand slots of the VAB are for calculating trips FROM and TO another planet. (#S3)
+Dyson swarm units decay faster the more of them there are. (#S4)
+Clay is valuable in space! (#S5)
+Don't land at Y=63 on Moho, Laythe, or Eve! (#S6)
+An armor modification table can add a PLSS to your armor, for breathing in space. (#S7)
+Friendly fire will not be tolerated! (#S8)
+Craft flippers to swim faster. (#S9)
+Occasionally Heavy Boots are great in low gravity. (#S10)
+You can survive in as little as 0.1atm of pure O2. (#S11)
+You only need one air vent for breathing unaided. (#S12)
+CO2 scrubbers and algae films can recover O2 continuously in orbit. (#S13)
+Orbital station can't make a trip? Add more engines! (#S14)
+Don't forget to clone your orbital station drive! (#S15)
+wi wi wi. (#???)
