@@ -32,8 +32,8 @@ Whenever a **release** is published on the client repo, a GitHub Action automati
 ### First-Time Install
 
 ```bash
-git clone https://github.com/NTNewHorizons/NTNH-Server.git my-server
-cd my-server
+git clone https://github.com/NTNewHorizons/NTNH-Server.git ntnh-server
+cd ntnh-server
 ./install/install.sh
 ./start.sh
 ```
@@ -43,7 +43,7 @@ The installer checks your Java version, clones the server files, accepts the Moj
 ### Updating an Existing Server
 
 ```bash
-cd my-server
+cd ntnh-server
 ./install/install.sh --update
 ```
 
