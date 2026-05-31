@@ -14,10 +14,11 @@ java -version 2>&1 | grep -q "1.8" || {
 }
 echo "Java 8 detected."
 
-# Update mode: just pull latest server files and exit
+# Update mode: fetch latest and force-sync tracked files while preserving untracked data
 if [ "$1" == "--update" ]; then
     echo "Updating server files from NTNH-Server..."
-    git pull origin main
+    git fetch origin main
+    git reset --hard origin/main
     echo "Update complete. Restart the server to apply changes."
     exit 0
 fi
