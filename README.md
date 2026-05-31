@@ -2,7 +2,7 @@
 
 Server-side version of the **Nuclear Tech: New Horizons** modpack for Minecraft 1.7.10.
 
-> This repository is **auto-generated** from the [client repository](https://github.com/NTNewHorizons/NTNH). Do not edit files in `mods/`, `config/`, `scripts/` or `serverutilities/` manually - they will be overwritten on the next sync.
+> ⚠️ **This repository is auto-generated** from the [client repository](https://github.com/NTNewHorizons/NTNH). Do not edit files in `mods/`, `config/`, `scripts/` or `serverutilities/` manually — they will be overwritten on the next update.
 
 ---
 
@@ -42,12 +42,27 @@ The installer checks your Java version, clones the server files, accepts the Moj
 
 ### Updating an Existing Server
 
+The updater force-syncs **tracked files** (everything stored in this repo) to the latest upstream version. **Untracked files are never touched.**
+
+**Preserved (untracked):**
+- `world/` — map, player data, inventories
+- `server.properties`, `eula.txt`
+- `ops.json`, `whitelist.json`, `banned-*.json`
+- `logs/`, `crash-reports/`, `backups/`, `dynmap/`
+- Any custom files or plugins you added
+
+**Overwritten (tracked):**
+- `mods/`, `config/`, `scripts/`, `serverutilities/`
+- `install/`, `README.md`, `knownkeys.txt`, etc.
+
 ```bash
 cd ntnh-server
 ./install/install.sh --update
 ```
 
-This pulls the latest files from the repo but **does not touch** your `world/` directory. Restart the server after updating.
+This runs `git fetch origin main && git reset --hard origin/main`, which guarantees the update succeeds even if you previously deleted or modified tracked files locally. Restart the server after updating.
+
+> **Tip:** If you customized a tracked config file and want to keep those edits, back it up before updating. Consider moving persistent custom settings into untracked files or scripts where possible.
 
 ---
 
