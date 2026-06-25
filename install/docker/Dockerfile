@@ -8,8 +8,8 @@ RUN apt-get update && apt-get install -y bash && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /server
 
-# Copy local repository contents into the image
-COPY . /server/
+# Download and extract server pack
+RUN wget -q https://github.com/domster704/NTNH-Server/archive/refs/heads/main.zip -O /tmp/ntnh.zip && unzip -q /tmp/ntnh.zip -d /tmp/ && cp -r /tmp/NTNH-Server-main/* /server/ && rm -rf /tmp/*
 
 RUN mkdir -p /server/world /server/backups /server/logs /server/crash-reports
 
