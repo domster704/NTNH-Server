@@ -3,8 +3,8 @@ version: '3.8'
 services:
   ntnh-server:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: ../..
+      dockerfile: install/docker/Dockerfile
     image: ntnh-server:latest
     container_name: ntnh-server
     restart: unless-stopped
