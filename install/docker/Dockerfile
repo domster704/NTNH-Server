@@ -9,7 +9,15 @@ RUN apt-get update && apt-get install -y wget unzip && rm -rf /var/lib/apt/lists
 WORKDIR /server
 
 # Download and extract server pack
-RUN wget -q https://github.com/domster704/NTNH-Server/archive/refs/heads/main.zip -O /tmp/ntnh.zip && unzip -q /tmp/ntnh.zip -d /tmp/ && cp -r /tmp/NTNH-Server-main/* /server/ && rm -rf /tmp/*
+ARG CACHE_BUST=1
+
+RUN set -eux; \
+    wget --show-progress --tries=5 --timeout=60 \
+      https://codeload.github.com/domster704/NTNH-Server/zip/refs/heads/main \
+      -O /tmp/ntnh.zip && \
+    unzip -q /tmp/ntnh.zip -d /tmp/ && \
+    cp -a /tmp/NTNH-Server-main/. /server/ && \
+    rm -rf /tmp/*
 
 RUN mkdir -p /server/world /server/backups /server/logs /server/crash-reports
 
