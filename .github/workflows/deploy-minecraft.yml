@@ -3,9 +3,6 @@ name: Deploy Minecraft Server
 on:
   workflow_dispatch:
 
-env:
-  HOME: /root
-      
 concurrency:
   group: minecraft-deploy
   cancel-in-progress: false
@@ -13,18 +10,22 @@ concurrency:
 jobs:
   deploy:
     name: Deploy on Minecraft-NTNH
-    runs-on: self-hosted 
+    runs-on: self-hosted
+
+    env:
+      HOME: /root
 
     steps:
       - name: Pull latest changes and rebuild containers
         shell: bash
-        working-directory: /root/NTNH-Server/install/docker
         run: |
           set -e
+
+          cd /root/NTNH-Server
 
           git pull --ff-only
           git lfs install --local --force
           git lfs pull
 
-          cd install/docker
+          cd /root/NTNH-Server/install/docker
           docker compose up -d --build
