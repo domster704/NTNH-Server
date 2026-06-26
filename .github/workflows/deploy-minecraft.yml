@@ -18,5 +18,10 @@ jobs:
         working-directory: /root/NTNH-Server/install/docker
         run: |
           set -e
+
           git pull --ff-only
+          git lfs install
+          git lfs pull
+
+          cd install/docker
           docker compose up -d --build
